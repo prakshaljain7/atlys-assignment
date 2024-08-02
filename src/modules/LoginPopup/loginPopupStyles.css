@@ -1,0 +1,7 @@
+.login-container {
+    border: 2px solid #969696;
+    border-radius: 8px;
+    background-color: rgba(39, 41, 45, 1);
+    padding: 40px 20px;
+    margin-top: 40px;
+}

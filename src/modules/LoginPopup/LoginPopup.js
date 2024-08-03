@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import eye from "../../assets/passsword_eye.svg";
 import "./loginPopupStyles.css";
 import { useNavigate } from "react-router-dom";
+import close from "../../assets/cross.png";
 
-function LoginPopup() {
+function LoginPopup({ on_register_click = () => {}, onClose = () => {} }) {
     const [email, set_email] = useState("");
     const [password, set_password] = useState("");
     const [password_visible, set_password_visible] = useState(false);
@@ -11,6 +12,9 @@ function LoginPopup() {
 
     return (
         <div className="login-container flex flex-col items-center justify-center">
+            <div className="w-full flex justify-end" onClick={onClose}>
+                <img src={close} alt="close" />
+            </div>
             <h3 className="text-dark-gray">WELCOME BACK</h3>
             <p className="text-white text-[18px]">Log into your account</p>
             <div className="w-[415px] mt-10">
@@ -56,7 +60,10 @@ function LoginPopup() {
             >
                 <p className="text-white text-semi-bold">Login Now</p>
             </button>
-            <div className="flex w-full mt-2 cursor-pointer">
+            <div
+                className="flex w-full mt-2 cursor-pointer"
+                onClick={on_register_click}
+            >
                 <p className="text-dark-gray">
                     Not registered yet?{" "}
                     <span className="text-light-gray">Register →</span>

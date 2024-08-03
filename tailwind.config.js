@@ -6,6 +6,7 @@ module.exports = {
             colors: {
                 "dark-gray": "#6B6C70",
                 "light-gray": "#C5C7CA",
+                "light-black": "#191920",
             },
             fontWeight: {
                 "semi-bold": 500,

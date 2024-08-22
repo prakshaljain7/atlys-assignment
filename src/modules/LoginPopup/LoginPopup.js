@@ -62,7 +62,7 @@ function LoginPopup({
       <button
         className="mt-5"
         onClick={() => {
-          navigate("/posts");
+          navigate("/atlys-assignment/posts");
         }}
       >
         <p className="text-white text-[16px] font-medium">Login Now</p>

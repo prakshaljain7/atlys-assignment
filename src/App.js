@@ -5,14 +5,14 @@ import LoginScreen from "./screens/LoginScreen";
 import Posts from "./screens/Posts";
 
 function App() {
-    return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<LoginScreen />} />
-                <Route path="/posts" element={<Posts />} />
-            </Routes>
-        </Router>
-    );
+  return (
+    <Router>
+      <Routes>
+        <Route path="/atlys-assignment" element={<LoginScreen />} />
+        <Route path="/atlys-assignment/posts" element={<Posts />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;

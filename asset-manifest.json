@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/atlys-assignment/static/css/main.ced38c1e.css",
-    "main.js": "/atlys-assignment/static/js/main.18cb67a1.js",
+    "main.js": "/atlys-assignment/static/js/main.68326677.js",
     "static/js/453.2f300ed0.chunk.js": "/atlys-assignment/static/js/453.2f300ed0.chunk.js",
     "static/media/logo.svg": "/atlys-assignment/static/media/logo.b3220f1419c8eadc68f067501ee186b0.svg",
     "static/media/passsword_eye.svg": "/atlys-assignment/static/media/passsword_eye.25764ce2f1c9657c70872757122cd15f.svg",
@@ -9,11 +9,11 @@
     "index.html": "/atlys-assignment/index.html",
     "static/media/menu_dots.svg": "/atlys-assignment/static/media/menu_dots.fba6de1c306888d9135a97648f926b43.svg",
     "main.ced38c1e.css.map": "/atlys-assignment/static/css/main.ced38c1e.css.map",
-    "main.18cb67a1.js.map": "/atlys-assignment/static/js/main.18cb67a1.js.map",
+    "main.68326677.js.map": "/atlys-assignment/static/js/main.68326677.js.map",
     "453.2f300ed0.chunk.js.map": "/atlys-assignment/static/js/453.2f300ed0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ced38c1e.css",
-    "static/js/main.18cb67a1.js"
+    "static/js/main.68326677.js"
   ]
 }
